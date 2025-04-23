@@ -19,6 +19,7 @@ dbt-fabric==1.7.4
 dbt-postgres==1.7.9
 dbt-semantic-interfaces==0.4.4
 dbt-sqlserver==1.7.4
+dotenv==0.9.9
 et-xmlfile==1.1.0
 gitdb==4.0.11
 GitPython==3.1.42
@@ -66,6 +67,7 @@ pypdf==4.1.0
 PyPDF2==3.0.1
 python-dateutil==2.9.0.post0
 python-docx==1.1.0
+python-dotenv==1.1.0
 python-slugify==8.0.4
 pytimeparse==1.1.8
 pytz==2024.1
