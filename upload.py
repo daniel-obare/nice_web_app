@@ -2,15 +2,17 @@ import streamlit as st
 import pandas as pd
 from sqlalchemy import create_engine, text
 from datetime import datetime
-import re
+import re, os
+from dotenv import load_dotenv
+load_dotenv()
 
 # Database credentials
 DB_CONFIG = {
-    'dbname': 'bidev',
-    'user': 'avnadmin',
-    'password': 'AVNS_LzxcmNp8sZ9AWhzDl10',
-    'host': 'bidev-magicsync.f.aivencloud.com',
-    'port': '25241'
+    'dbname': os.getenv('dbname'),
+    'user': os.getenv('user'),
+    'password': os.getenv('password'),
+    'host': os.getenv('host'),
+    'port': os.getenv('port')
 }
 
 def get_db_engine():
