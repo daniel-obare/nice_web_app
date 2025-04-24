@@ -5,7 +5,7 @@ from upload import data_page
 
 # Set page configuration
 st.set_page_config(
-    page_title=' MagicSync',  page_icon='images/favicon.ico'
+    page_title=' MagicSync',  page_icon='images/nice_favicon.ico'
 )
 
 
